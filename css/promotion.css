@@ -1,0 +1,50 @@
+.banner img{
+  position: relative;
+  top: -80px;
+  width: 100%;
+}
+
+.content .quote{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.content article h2{
+  color: #E3B04B;
+  text-align: center;
+  font-style: italic;
+}
+
+.promotion-img{
+  display: flex;
+  justify-content: space-around;
+}
+
+.promotion-img img{
+  width: 25%;
+  border-radius: 20px;
+}
+
+.hot-sale{
+  margin-top: 30px;
+  padding: 0px 150px;
+}
+
+.hot-sale h2{
+  color: #E3B04B;
+  font-variant: small-caps;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) { 
+  .banner img{
+    top: -60px;
+  }
+  .hot-sale h2{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .hot-sale{
+    padding: 0px 50px;
+  }
+}

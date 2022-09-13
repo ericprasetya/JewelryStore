@@ -1,0 +1,30 @@
+.content {
+  margin-top: 500px;
+  padding: 0px 200px;
+}
+
+.content .promotion h2{
+  color: #E3B04B;
+  font-variant: small-caps;
+}
+
+.content article{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.content article h2{
+  color: #E3B04B;
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (max-width: 800px) { 
+  .content {
+    margin-top: 200px;
+    padding: 0px 50px;
+  }
+  .content .promotion h2{
+    text-align: center;
+  }
+}

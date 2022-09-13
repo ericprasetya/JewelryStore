@@ -1,0 +1,128 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 70px 200px;
+  background-color: #2b2b2b;
+}
+
+input[type=text], select, textarea, input[type=password], input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #212121;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+textarea{
+  height: 200px;
+}
+
+label {
+  padding: 12px 12px 30px 0px;
+  display: inline-block;
+  color: #E3B04B;
+}
+
+.row.submit{
+  justify-content: end;
+}
+
+input[type=submit] {
+  background-color: #E3B04B;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+input[type=submit]:hover{
+  opacity: 0.8;
+}
+input[type=checkbox]{
+  display: inline;
+}
+
+
+.error{
+color: red;
+font-size: small;
+}
+
+.content h1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  color: #E3B04B;
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+.label-column {
+  width: 40%;
+  margin-top: 6px;
+}
+
+.input-column {
+  width: 60%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.row .Iagree{
+  font-size: small;
+  display: inline-block;
+}
+.hide{
+  display: none;
+}
+
+.visaButton, .paypalButton{
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 800px) {
+  .row{
+    margin-bottom: 15px;
+    flex-direction: column;
+  }
+  .input-column {
+    width: 100%;
+  }
+  .content{
+    padding: 70px 100px;
+  }
+  input[type=text], select, textarea, input[type=password], input[type=email]{
+    padding: 10px;
+    height: 35px;
+  }
+  textarea{
+    height: 100px;
+  }
+  
+  label {
+    padding: 5px 5px 5px 0px;
+    display: inline-block;
+    color: #E3B04B;
+  }
+
+  .content h1{
+    padding-bottom: 50px;
+  }
+} 

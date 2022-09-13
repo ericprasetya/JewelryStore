@@ -1,0 +1,35 @@
+.banner img{
+  position: relative;
+  top: -80px;
+  width: 100%;
+}
+
+.content {
+  /* margin-top: 300px; */
+  padding: 0px 200px;
+}
+
+.content .about p{
+  margin-top: 10px;
+  line-height: 30px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.content .quote{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.content article h2{
+  color: #E3B04B;
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (max-width: 800px) { 
+  .banner img{
+    top: -60px;
+  }
+}

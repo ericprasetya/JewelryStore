@@ -1,0 +1,23 @@
+.slides{
+  position: relative;
+  top: -80px;
+}
+
+.slides img{
+  width: 100%;
+  position: absolute;
+  /* top: 0; */
+}
+
+@media screen and (max-width: 800px) { 
+  .slides{
+    top: -60px;
+  }
+
+  .slides img{
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0)
+  }
+}

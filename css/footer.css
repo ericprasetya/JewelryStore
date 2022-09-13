@@ -1,0 +1,45 @@
+.sosmed{
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .sosmed a{
+  /* display: block; */
+  color: #E3B04B;
+}
+
+footer .sosmed a:hover{
+  color: wheat;
+}
+
+footer .logo-footer img{
+  /* width: 300px; */
+  background-color: black;
+  height: 100px;
+}
+footer .logo-footer a{
+  background-color: black;
+}
+
+footer{
+  background-color: black;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+  /* box-sizing: border-box; */
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  footer .logo-footer img{
+    height: 60px;
+  }
+  footer{
+    height: 100px;
+  }
+  .sosmed i{
+    transform: scale(0.7);
+  }
+}

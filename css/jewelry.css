@@ -1,0 +1,22 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  padding: 0px 150px;
+}
+
+.content h2{
+  color: #E3B04B;
+  font-variant: small-caps;
+  margin-bottom: 20px;
+}
+
+.product-category{
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) { 
+  .content{
+    padding: 0px 50px;
+  }
+}
